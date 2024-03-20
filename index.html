@@ -1,0 +1,78 @@
+<title>F1 JS Game</title>
+
+<body>
+  <div class="puntuacion">a</div>
+  <div class="highscore">a</div>
+  <div class="arriba"><img src="./assets/arribaFinal.png" /></div>
+  <div class="grass"><img src="./assets/abajo.png" /></div>
+  <div class="textoVidas"><h1>VIDAS:</h1></div>
+  <div class="vidas">
+    <img class="vida3" src="./assets/neumatico.webp" />
+    <img class="vida2" src="./assets/neumatico.webp" />
+    <img class="vida1" src="./assets/neumatico.webp" />
+  </div>
+</body>
+
+<style>
+  @font-face {
+    font-family: "FuturaEF";
+    src: url(./assets/futuraef.otf);
+  }
+  .textoVidas {
+    position: absolute;
+    margin-left: 83%;
+    margin-top: -13px;
+  }
+  .vidas {
+    position: absolute;
+    margin-left: 90%;
+  }
+  .arriba {
+    position: absolute;
+  }
+  .grass {
+    position: absolute;
+    margin-top: 770px;
+    background: url(./assets/parteCesped.png) repeat;
+    width: 99.2%;
+    height: 121px;
+  }
+  * {
+    overflow: hidden;
+    font-family: "FuturaEF";
+  }
+  body {
+    background-color: black;
+  }
+  canvas {
+    border: 3px solid #fff;
+    margin-top: 14%;
+    z-index: -10;
+    display: block;
+    background: url(./coches/c2.jpg);
+    align-items: center;
+  }
+  .car1 {
+    background: #fff;
+  }
+  .puntuacion {
+    z-index: 10;
+    margin-top: 25px;
+    margin-left: 169px;
+    position: absolute;
+  }
+  .highscore {
+    z-index: 10;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 1285px;
+  }</style
+>.
+
+<canvas id="canva"> </canvas>
+
+<img id="nano" hidden src="./coches/f1car.png" alt="Nano Coche" />
+<img id="asf1" hidden src="./coches/carretera.jpg" alt="Asfalto" />
+<img id="enemy" hidden src="./coches/ferrari.png" alt="Coche enemigo" />
+
+<script src="/script.js"></script>
